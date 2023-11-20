@@ -1,0 +1,42 @@
+body{
+    background-color: #E3FDEE;
+}
+.nav{
+    background-color: #E2D9DE;
+}
+h1{
+    text-align: center;
+}
+.about{
+    background-color: #678976;
+    border: #678976 solid;
+    padding-top: 30px;
+}
+.carousel{
+    padding-top: 20px;
+}
+
+.col{
+    padding: 30px;
+}
+.card{
+    background-color: #678976;
+}
+.odd{
+    background-color: #E2D9DE;
+}
+.even{
+    background-color: #678976;
+}
+footer {
+    background-color: #678976;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    iframe{
+      display: none;
+    }
+  }

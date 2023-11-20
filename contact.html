@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap B and B</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/22835e348e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><i class="fa-solid fa-rocket"></i> Home</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">
+                <i class="fa-solid fa-envelope" style="color: #000000"></i>
+                Contact</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Book a room</a></li>
+                <li><a class="dropdown-item" href="#">Photo</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Leave a Review</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Contact us!</h1>
+      <div class="container text-center">
+        <div class="row odd">
+          <div class="col">
+            <p>
+              "Ready to embark on an interstellar adventure? Please provide your
+              details below to secure your spot and book a room at our cosmic
+              retreat, where luxury meets the cosmos!"
+            </p>
+          </div>
+          <div class="col">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="formInput"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="formInput2"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="formInput3"
+                placeholder="Email"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="formInput4"
+                placeholder="Phone"
+              />
+            </div>
+            <button type="button" class="btn btn-secondary">
+              Book Your Room!
+            </button>
+          </div>
+        </div>
+        <div class="row even">
+          <div class="col map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3470.567086809295!2d-95.091908624096!3d29.558099175172142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86409da671292593%3A0xf684f098a7237a30!2sNASA%20Mission%20Control%20Center!5e0!3m2!1sen!2sus!4v1700444849111!5m2!1sen!2sus"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col">
+            <p>
+              "Embark on an extraordinary journey with us! Our shuttle awaits
+              your arrival at the iconic NASA Mission Control Center, situated
+              in the heart of Houston, Texas. As you step into this hub of space
+              exploration, our team will be ready to usher you into a cosmic
+              adventure that begins at the epicenter of human exploration and
+              innovation."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+        <footer>
+          <p>&copy; 2023 Seth Rowan</p>
+        </footer>
+      </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
